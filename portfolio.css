@@ -65,6 +65,22 @@ main {
   bottom: 5%;
   left: 10%;
 }
+.circle3,
+.circle4 {
+  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+  height: 20rem;
+  width: 20rem;
+  position: absolute;
+  border-radius: 50%;
+}
+/*position of the circles*/
+.circle3 {
+  bottom: 50%;
+  right: 5%;
+  border:solid aliceblue ;
+  
+}
+
 /* spacing inside of container*/
 .dashboard {
   flex: 1;
@@ -74,6 +90,11 @@ main {
   justify-content: space-evenly;
   text-align: center;
   border-radius: 2;
+ 
+}
+.dashboard1{
+ text-align: center;
+ margin-top: 10px;
 }
 /* spacing of the hobbies inside container*/
 .hobby {
@@ -119,6 +140,21 @@ padding: 10px;
     align-items: center;
        
         }
+        .contactInfo{
+          margin: 20px;
+          border:solid #6cdbeb;
+          background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+          opacity: 90%;
+          border-radius: 15px;
+          text-align: center;
+          width: 50%;
+       
+        }
+        .contact{
+          display: flex;
+          justify-content: center;
+         
+        }
         .dashboard2{
             margin: 50px;
             display: flex;
@@ -143,4 +179,5 @@ padding: 10px;
          padding-top: 100px;
          font-size: 60px;
           }
+         
          
