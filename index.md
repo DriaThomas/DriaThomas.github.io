@@ -102,8 +102,9 @@
             <div class="workSpace2 d-grid gap-2 d-md-block">
                 <img src="/images/frog.png">
                 <h2>HTML Email</h2>
-                <button type="button" class="btn btn-primary">Code</button>
-                <button type="button" class="btn btn-outline-primary">Live Site</button>
+                <button type="button" href="https://github.com/DriaThomas/HTML-Email"
+class="btn btn-primary">Code</button>
+                <button type="button" href="https://driathomas.github.io/HTML-Email/" class="btn btn-outline-primary">Live Site</button>
             </div>
             <div class="workSpace3 d-grid gap-2 d-md-block">
                 <img src="/images/frog.png">
