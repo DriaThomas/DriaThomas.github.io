@@ -20,16 +20,16 @@
         <ul class="nav justify-content-end">
             <!-- <div class=nav> -->
             <li class="nav-item">
-                <a class=" nav-link active" style="color:#426696 " href=""><b>Dria </b>Thomas</a>
+                <a class=" nav-link active" style="color:#426696 " href="#home"><b>Dria </b>Thomas</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link active" style="color:#426696 " href="/">About</a>
+                <a class="nav-link active" style="color:#426696 " href="#about">About</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link active" style="color:#426696 " href="/">Portfolio</a>
+                <a class="nav-link active" style="color:#426696 " href="#dashboard1">Portfolio</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link active" style="color:#426696 " href="/">Contact</a>
+                <a class="nav-link active" style="color:#426696 " href="#dashboard2">Contact</a>
             </li>
             <!-- </div> -->
         </ul>
@@ -56,6 +56,7 @@
 
 
                 </div>
+                <br>
                 <a href="#about">
                     <svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" fill="currentColor"
                         class="bi bi-arrow-down-circle" viewBox="0 0 16 16">
@@ -71,7 +72,7 @@
         <div class="title">
             <h1>About</h1>
         </div>
-        <div class="dashboard1">
+        <div id="dashboard1" class="dashboard1">
 
 
             <h2> Hello World! I'm Dria Thomas, a Frontend Web Developer based our of South Florida. I have background in
@@ -119,7 +120,7 @@
                 <button type="button" onclick="location.href='https://driathomas.github.io/Frog-vs.Toad/'"
                     class="btn btn-outline-primary">Live Site</button>
             </div> -->
-            <div class="workSpace2 d-grid gap-2 d-md-block">
+            <div id="dashboard2" class="workSpace2 d-grid gap-2 d-md-block">
                 <img
                     src="https://www.dunkindonuts.com/content/dam/dd/img/rebranding/ddcards/checkbalance/CheckBalance-LearnMoreAboutTheApp-620x506.png">
                 <h2>HTML Email</h2>
@@ -133,7 +134,7 @@
                     class="btn btn-outline-primary">Live Site</button>
             </div>
             <div class="workSpace3 d-grid gap-2 d-md-block">
-                <img src="/images/frog.png">
+                <img src="https://images-na.ssl-images-amazon.com/images/I/617-hP04DPL.png">
                 <h2>Frog vs Toad Dom Game</h2>
                 <div> <button>HTML</button>
                     <button>CSS</button>
