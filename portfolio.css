@@ -96,7 +96,7 @@ main {
   justify-content: space-evenly;
   text-align: center;
   border-radius: 2;
-  margin-top: 20%;
+  margin-top: 10%;
   margin-bottom: 5%;
  
 }
@@ -118,9 +118,10 @@ nav{
 
     font-size: 20px;
 }
+
 .dashboard2 img{
-    width:50%;
-    height: 30%;
+    width:200px;
+    height: 200px;
 padding: 10px;
 }
 .workSpace{
