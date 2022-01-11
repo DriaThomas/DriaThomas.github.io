@@ -1,2 +1,2 @@
 # DriaThomas.github.io
-Portfoilio
+Portfolio 
