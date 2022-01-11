@@ -20,16 +20,16 @@
         <ul class="nav justify-content-end">
             <!-- <div class=nav> -->
             <li class="nav-item">
-                <a class=" nav-link active" style="color:#426696 " href="#home"><b>Dria </b>Thomas</a>
+                <a class=" nav-link active" style="color:#426696 " href=""><b>Dria </b>Thomas</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link active" style="color:#426696 " href="#about">About</a>
+                <a class="nav-link active" style="color:#426696 " href="/">About</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link active" style="color:#426696 " href="#dashboard1">Portfolio</a>
+                <a class="nav-link active" style="color:#426696 " href="/">Portfolio</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link active" style="color:#426696 " href="#dashboard2">Contact</a>
+                <a class="nav-link active" style="color:#426696 " href="/">Contact</a>
             </li>
             <!-- </div> -->
         </ul>
@@ -41,7 +41,7 @@
                 <div class="user">
 
                     <h1>Hello, I'm Dria &#128105;&#127999;&#8205;&#128187; </h1>
-                    <h2>Frontend Developer</h2>
+                    <h2>Front-End Developer</h2>
 
 
                     <div class="hobby">
@@ -56,9 +56,8 @@
 
 
                 </div>
-                <br>
                 <a href="#about">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" fill="currentColor"
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
                         class="bi bi-arrow-down-circle" viewBox="0 0 16 16">
                         <path fill-rule="evenodd"
                             d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z" />
@@ -72,25 +71,21 @@
         <div class="title">
             <h1>About</h1>
         </div>
-        <div id="dashboard1" class="dashboard1">
+        <div class="dashboard1">
+<div id="about-contain1">
 
+            <h2> Education </h2>
+            <h4>I'm a Frontend Web Developer with a background in digital media.</h4>
+        </div>
+        <div id="about-contain1">
+            <h2> Education </h2>
+        </div>
+        <div id="about-contain1">
 
-            <h2> Hello World! I'm Dria Thomas, a Frontend Web Developer based in South Florida. I have background in
-                Digital Media and media production. I'm excited to grow and showcase my web devlopment skills. Feel free
-                to contact me!</h2>
+        </div>
+        <div id="about-contain1">
 
-
-            <div class="hobby">
-
-                <a href="https://github.com/DriaThomas" class="fa fa-github nav-link active" style="font-size:68px; 
-                    "></a>
-
-
-                <a href="https://www.linkedin.com/in/dria-thomas/" class="fa fa-linkedin-square"
-                    style="font-size:68px;"></a>
-            </div>
-
-
+        </div>
         </div>
 
 
@@ -108,42 +103,23 @@
         </div>
         <div class="dashboard2">
 
-            <!-- <div class="workSpace d-grid gap-2 d-md-block">
-                <img src="https://ibb.co/znc8gFj">
+            <div class="workSpace d-grid gap-2 d-md-block">
+                <img src="/images/frog.png">
                 <h2>Frog vs Toad Dom Game</h2>
-                <div> <button>HTML</button>
-                    <button>CSS</button>
-                    <button>Javascript</button>
-                </div>
-                <button type="button" onclick="location.href='https://github.com/DriaThomas/Frog-vs.Toad'"
-                    class="btn btn-primary">Code</button>
-                <button type="button" onclick="location.href='https://driathomas.github.io/Frog-vs.Toad/'"
-                    class="btn btn-outline-primary">Live Site</button>
-            </div> -->
-            <div id="dashboard2" class="workSpace2 d-grid gap-2 d-md-block">
-                <img
-                    src="https://www.dunkindonuts.com/content/dam/dd/img/rebranding/ddcards/checkbalance/CheckBalance-LearnMoreAboutTheApp-620x506.png">
+                <button type="button" class="btn btn-primary">Code</button>
+                <button type="button" class="btn btn-outline-primary">Live Site</button>
+            </div>
+            <div class="workSpace2 d-grid gap-2 d-md-block">
+                <img src="/images/frog.png">
                 <h2>HTML Email</h2>
-                <div>
-                    <button>HTML</button>
-                    <button>CSS</button>
-                </div> <br>
-                <button onclick=" location.href='https://github.com/DriaThomas/HTML-Email'" type="button"
-                    class="btn btn-primary">Code</button>
-                <button onclick="location.href='https://driathomas.github.io/HTML-Email/'" type="button"
-                    class="btn btn-outline-primary">Live Site</button>
+                <button type="button" class="btn btn-primary">Code</button>
+                <button type="button" class="btn btn-outline-primary">Live Site</button>
             </div>
             <div class="workSpace3 d-grid gap-2 d-md-block">
-                <img src="https://images-na.ssl-images-amazon.com/images/I/617-hP04DPL.png">
+                <img src="/images/frog.png">
                 <h2>Frog vs Toad Dom Game</h2>
-                <div> <button>HTML</button>
-                    <button>CSS</button>
-                    <button>Javascript</button>
-                </div> <br>
-                <button type="button" onclick="location.href='https://github.com/DriaThomas/Frog-vs.Toad'"
-                    class="btn btn-primary">Code</button>
-                <button type="button" onclick="location.href='https://driathomas.github.io/Frog-vs.Toad/'"
-                    class="btn btn-outline-primary">Live Site</button>
+                <button type="button" class="btn btn-primary">Code</button>
+                <button type="button" class="btn btn-outline-primary">Live Site</button>
             </div>
 
 
@@ -156,7 +132,7 @@
         <div class="contactInfo">
             <h1>Contact</h1>
 
-            <form action="mailto:dria2thomas@gmail.com" method="post" enctype="text/plain">
+            <form action="mailto:someone@example.com" method="post" enctype="text/plain">
                 Name:<br>
                 <input type="text" name="name"><br>
                 E-mail:<br>
@@ -180,16 +156,6 @@
         <div class="circle1"></div>
         <div class="circle2"></div>
         <div class="circle3"></div>
-
-
-        <div id="background-wrap">
-            <div class="bubble x1"></div>
-            <div class="bubble x2"></div>
-            <div class="bubble x3"></div>
-            <div class="bubble x4"></div>
-            <div class="bubble x5"></div>
-            <div class="bubble x6"></div>
-        </div>
 
 </body>
 
