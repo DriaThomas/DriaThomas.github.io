@@ -40,7 +40,7 @@
             <div class="dashboard">
                 <div class="user">
 
-                    <h1>Hello, I'm Dria &#128105;&#127999;&#8205;&#128187; </h1>
+                    <h1 class="headerName">Hello, I'm Dria &#128105;&#127999;&#8205;&#128187; </h1>
                     <h2>Front-End Developer</h2>
 
 
@@ -56,9 +56,8 @@
 
 
                 </div>
-                <br>
                 <a href="#about">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" fill="currentColor"
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
                         class="bi bi-arrow-down-circle" viewBox="0 0 16 16">
                         <path fill-rule="evenodd"
                             d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z" />
@@ -70,26 +69,42 @@
 
     <section id="about">
         <div class="title">
-            <h1 class="linear-wipe">About</h1>
+            <h1>About</h1>
         </div>
-        <div id="dashboard1" class="dashboard1">
-<div id="aboutpara">
-            <h2> Hello World! I'm Dria Thomas, a Front-End Web Developer based in South Florida. I have background in
-                Digital Media and media production. I'm excited to grow and showcase my web devlopment skills. Feel free
+        <div class="dashboard1">
+<div id="about-contain1">
+
+    
+            <h2>Hello World! 	
+                &#128075; </h2>
+            <h2>
+                I'm Dria Thomas, a Front-End Web Developer based in South Florida. I have background in
+                Digital Media and media production. I'm excited to grow and showcase my web development skills. Feel free
                 to contact me!</h2>
-
-</div>
-            <div class="hobby">
-
-                <a href="https://github.com/DriaThomas" class="fa fa-github nav-link active" style="font-size:68px; 
-                    "></a>
-
-
-                <a href="https://www.linkedin.com/in/dria-thomas/" class="fa fa-linkedin-square"
-                    style="font-size:68px;"></a>
+        </div>
+        <div id="planetOribt">
+         
+            <div class="spinner-box">
+              <div class="solar-system">
+                <div class="earth-orbit orbit">
+                  <div class="planet earth"></div>
+                  <div class="venus-orbit orbit">
+                    <div class="planet venus"></div>
+                    <div class="mercury-orbit orbit">
+                      <div class="planet mercury"></div>
+                      <div class="sun"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
+        </div>
+        <!-- <div id="about-contain1">
 
+        </div>
+        <div id="about-contain1">
 
+        </div> -->
         </div>
 
 
@@ -103,61 +118,88 @@
 
     <section class="work">
         <div class="title">
-            <h1 class="linear-wipe">Projects</h1>
+            <h1>Projects</h1>
         </div>
         <div class="dashboard2">
 
             <!-- <div class="workSpace d-grid gap-2 d-md-block">
-                <img src="https://ibb.co/znc8gFj">
+                <img src="/images/frog.png">
                 <h2>Frog vs Toad Dom Game</h2>
-                <div> <button>HTML</button>
-                    <button>CSS</button>
-                    <button>Javascript</button>
-                </div>
-                <button type="button" onclick="location.href='https://github.com/DriaThomas/Frog-vs.Toad'"
-                    class="btn btn-primary">Code</button>
-                <button type="button" onclick="location.href='https://driathomas.github.io/Frog-vs.Toad/'"
-                    class="btn btn-outline-primary">Live Site</button>
+                <button type="button" class="btn btn-primary">Code</button>
+                <button type="button" class="btn btn-outline-primary">Live Site</button>
+            </div>
+            <div class="workSpace2 d-grid gap-2 d-md-block">
+                <img src="/images/frog.png">
+                <h2>HTML Email</h2>
+                <button type="button" class="btn btn-primary">Code</button>
+                <button type="button" class="btn btn-outline-primary">Live Site</button>
+            </div>
+            <div class="workSpace3 d-grid gap-2 d-md-block">
+                <img src="/images/frog.png">
+                <h2>Bulk Beauty</h2>
+                <button type="button" class="btn btn-primary">Code</button>
+                <button type="button" class="btn btn-outline-primary">Live Site</button>
+            </div>
+            <div class="workSpace3 d-grid gap-2 d-md-block">
+                <img src="/images/frog.png">
+                <h2>Academy Hacks</h2>
+                <button type="button" class="btn btn-primary">Code</button>
+                <button type="button" class="btn btn-outline-primary">Live Site</button>
             </div> -->
-            <div id="dashboard2" class="workSpace2 d-grid gap-2 d-md-block">
-                <img
-                    src="https://www.dunkindonuts.com/content/dam/dd/img/rebranding/ddcards/checkbalance/CheckBalance-LearnMoreAboutTheApp-620x506.png">
+            <div class="workSpace3 d-grid gap-2 d-md-block">
+                <img class="imgProjects" src="images/Screen Shot 2022-01-11 at 8.04.25 PM.png" alt="Academy Hacks">
+                <h2>Academy Hacks </h2>
+                <div> <span class="badge rounded-pill bg-primary">HandleBars</span>
+                    <span class="badge rounded-pill bg-primary">React</span>
+                    <span class="badge rounded-pill bg-primary">Javascript</span>
+                </div> <br>
+                <button type="button" onclick="window.open('https://the-academy-hacks.netlify.app/')"
+                    class="btn btn-primary">Code</button>
+                <button type="button" onclick="window.open('https://github.com/vloparevich/academy-hacks')"
+                    class="btn btn-outline-primary">Live Site</button>
+            </div>
+           
+            <div class="workSpace3 d-grid gap-2 d-md-block">
+                <img class="imgProjects"  src="images/Screen Shot 2022-01-11 at 4.08.21 PM.png" alt="Bulk Beauty">
+                <h2>Bulk Beauty </h2>
+                <div> <span class="badge rounded-pill bg-primary">HandleBars</span>
+                    <!-- <span class="badge rounded-pill bg-primary">Express node.js</span> -->
+                    <span class="badge rounded-pill bg-primary">Javascript</span>
+                </div> <br>
+                <button type="button" onclick="window.open('https://makeupappproject.herokuapp.com/')"
+                    class="btn btn-primary">Code</button>
+                <button type="button" onclick="window.open('https://github.com/DriaThomas/Makeup-Project')"
+                    class="btn btn-outline-primary">Live Site</button>
+            </div>
+          
+
+            <div  class="workSpace3 d-grid gap-2 d-md-block">
+                <img class="imgProjects" src="images/Screen Shot 2022-01-11 at 4.09.15 PM.png" alt="HTML EMAIL">
                 <h2>HTML Email</h2>
                 <div>
-                    <button>HTML</button>
-                    <button>CSS</button>
+                    <span class="badge rounded-pill bg-primary">HTML</span>
+                    <span class="badge rounded-pill bg-primary">CSS</span>
                 </div> <br>
-                <button onclick=" location.href='https://github.com/DriaThomas/HTML-Email'" type="button"
+                <button type="button" onclick="window.open('https://github.com/DriaThomas/HTML-Email')" type="button"
                     class="btn btn-primary">Code</button>
-                <button onclick="location.href='https://driathomas.github.io/HTML-Email/'" type="button"
+                <button onclick="window.open('https://driathomas.github.io/HTML-Email/')" type="button"
                     class="btn btn-outline-primary">Live Site</button>
             </div>
             <div class="workSpace3 d-grid gap-2 d-md-block">
-                <img src="https://images-na.ssl-images-amazon.com/images/I/617-hP04DPL.png">
+                <img class="imgProjects" src="images/Screen Shot 2022-01-11 at 3.59.27 PM.png" alt="frog vs Toad Dom Game">
                 <h2>Frog vs Toad Dom Game</h2>
-                <div> <button>HTML</button>
-                    <button>CSS</button>
-                    <button>Javascript</button>
+                <div> <span class="badge rounded-pill bg-primary">HTML</span>"
+                    <span class="badge rounded-pill bg-primary">CSS</span>
+                    <span class="badge rounded-pill bg-primary">Javascript</span>
                 </div> <br>
-                <button type="button" onclick="location.href='https://github.com/DriaThomas/Frog-vs.Toad'"
+                <button type="button" onclick="window.open('https://github.com/DriaThomas/Frog-vs.Toad')"
                     class="btn btn-primary">Code</button>
-                <button type="button" onclick="location.href='https://driathomas.github.io/Frog-vs.Toad/'"
+                <button type="button" onclick="window.open('https://driathomas.github.io/Frog-vs.Toad/')"
                     class="btn btn-outline-primary">Live Site</button>
             </div>
-            <div class="workSpace3 d-grid gap-2 d-md-block">
-                <img src="https://images-na.ssl-images-amazon.com/images/I/617-hP04DPL.png">
-                <h2>Academy Hacks </h2>
-                <div> <button>HandleBars</button>
-                    <button>React</button>
-                    <button>Javascript</button>
-                </div> <br>
-                <button type="button" onclick="location.href='https://the-academy-hacks.netlify.app/'"
-                    class="btn btn-primary">Code</button>
-                <button type="button" onclick="location.href='https://driathomas.github.io/Frog-vs.Toad/'"
-                    class="btn btn-outline-primary">Live Site</button>
-            </div>
+           
 
-          
+        </div>
         </div>
 
 
@@ -167,7 +209,7 @@
         <div class="contactInfo">
             <h1>Contact</h1>
 
-            <form action="mailto:dria2thomas@gmail.com" method="post" enctype="text/plain">
+            <form action="mailto:someone@example.com" method="post" enctype="text/plain">
                 Name:<br>
                 <input type="text" name="name"><br>
                 E-mail:<br>
@@ -191,16 +233,6 @@
         <div class="circle1"></div>
         <div class="circle2"></div>
         <div class="circle3"></div>
-
-
-        <div id="background-wrap">
-            <div class="bubble x1"></div>
-            <div class="bubble x2"></div>
-            <div class="bubble x3"></div>
-            <div class="bubble x4"></div>
-            <div class="bubble x5"></div>
-            <div class="bubble x6"></div>
-        </div>
 
 </body>
 
